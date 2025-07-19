@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Game Edukasi Informatika 003</title>
+  <link rel="icon" href="icon/logo.png" type="image/png">
+  <title>Flash Screen</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #1e97d7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    img {
+      width: 400px;
+      max-width: 80%;
+    }
+  </style>
+</head>
+<body>
+  <img src="icon/flashscreen.png" alt="Logo Splash" />
+
+  <script>
+    // Pindah ke index.html setelah 2 detik
+    setTimeout(() => {
+      window.location.href = "game.html";
+    }, 3000);
+  </script>
+</body>
+</html>
